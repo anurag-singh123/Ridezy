@@ -1,6 +1,10 @@
 {
   "name": "Ridezy — Smart Ride Booking & Lowest Fare Finder",
   "description": "Compare ride prices across bikes, autos, and cabs, find the lowest valid fare, and book affordable urban transportation with transparent fee breakdowns.",
-  "requestFramePermissions": ["geolocation"],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
