@@ -1,0 +1,52 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="360" rx="32" fill="#181A2F"/>
+  <!-- Subtle background grid -->
+  <path d="M0 90H1200M0 180H1200M0 270H1200M240 0V360M480 0V360M720 0V360M960 0V360" stroke="#252849" stroke-width="1"/>
+  <!-- Decorative road curve -->
+  <path d="M680 340C780 220 960 220 1140 110" stroke="#6C4DFF" stroke-width="14" stroke-linecap="round"/>
+  <path d="M680 340C780 220 960 220 1140 110" stroke="#B8F34A" stroke-width="4" stroke-dasharray="12 12" stroke-linecap="round"/>
+
+  <!-- Ridezy App Icon Lockup -->
+  <g transform="translate(72, 76)">
+    <rect width="88" height="88" rx="24" fill="#6C4DFF"/>
+    <path d="M16 71C30 58 58 58 72 71" stroke="#B8F34A" stroke-width="6" stroke-linecap="round"/>
+    <path d="M44 14C31 14 20.5 24.5 20.5 37.5C20.5 52.3 37.9 67.5 42.4 71.1C43.3 71.9 44.7 71.9 45.6 71.1C50.1 67.5 67.5 52.3 67.5 37.5C67.5 24.5 57 14 44 14Z" fill="#FAFAFF"/>
+    <circle cx="44" cy="36.5" r="13" fill="#FF6B6B"/>
+    <path d="M39 31H49M39 35H47.5M40.5 31C44.5 31 46 38 40.5 38L47.5 43.5" stroke="#FAFAFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Title & Tagline -->
+  <text x="184" y="122" fill="#FAFAFF" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="48" font-weight="800" letter-spacing="-1">Ridezy</text>
+  <text x="184" y="154" fill="#B8F34A" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="700">Every Ride. The Right Price.</text>
+
+  <text x="72" y="218" fill="#CBD5E1" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="500">
+    Smart Ride Booking &amp; Lowest Fare Finder — Compare Bikes, Autos &amp; Cabs in Seconds
+  </text>
+
+  <!-- Feature Pills -->
+  <g transform="translate(72, 252)">
+    <rect width="190" height="44" rx="12" fill="#6C4DFF"/>
+    <text x="95" y="28" text-anchor="middle" fill="#FAFAFF" font-family="system-ui, sans-serif" font-size="15" font-weight="700">LOWEST FARE ENGINE</text>
+
+    <rect x="208" width="210" height="44" rx="12" fill="#252849" stroke="#6C4DFF" stroke-width="1.5"/>
+    <text x="313" y="28" text-anchor="middle" fill="#B8F34A" font-family="system-ui, sans-serif" font-size="15" font-weight="700">ZERO HIDDEN SURGES</text>
+
+    <rect x="436" width="215" height="44" rx="12" fill="#252849" stroke="#FF6B6B" stroke-width="1.5"/>
+    <text x="543" y="28" text-anchor="middle" fill="#FAFAFF" font-family="system-ui, sans-serif" font-size="15" font-weight="700">ENGLISH &amp; HINDI READY</text>
+  </g>
+
+  <!-- Sample Price Comparison Card on Right -->
+  <g transform="translate(780, 56)">
+    <rect width="348" height="248" rx="24" fill="#FAFAFF" stroke="#6C4DFF" stroke-width="3"/>
+    <rect x="24" y="24" width="124" height="28" rx="8" fill="#B8F34A"/>
+    <text x="86" y="43" text-anchor="middle" fill="#181A2F" font-family="system-ui, sans-serif" font-size="13" font-weight="800">LOWEST FARE</text>
+    <text x="24" y="92" fill="#181A2F" font-family="system-ui, sans-serif" font-size="40" font-weight="800">₹49</text>
+    <text x="112" y="86" fill="#475569" font-family="system-ui, sans-serif" font-size="14" font-weight="600">Bike • Pickup in 4 min</text>
+    <text x="24" y="122" fill="#16A34A" font-family="system-ui, sans-serif" font-size="14" font-weight="700">You save ₹6 vs comparable Bike offer</text>
+
+    <line x1="24" y1="142" x2="324" y2="142" stroke="#E2E8F0" stroke-width="1.5"/>
+    <text x="24" y="170" fill="#181A2F" font-family="system-ui, sans-serif" font-size="14" font-weight="700">Auto • ₹89 (6 min)   |   Mini Cab • ₹149 (5 min)</text>
+    <rect x="24" y="190" width="300" height="38" rx="12" fill="#6C4DFF"/>
+    <text x="174" y="214" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="14" font-weight="700">Book Lowest Valid Fare →</text>
+  </g>
+</svg>

@@ -1,8 +1,51 @@
 # Ridezy — Smart Ride Booking & Lowest Fare Finder
 
+<p align="center">
+  <img src="docs/screenshots/ridezy-banner.svg" alt="Ridezy — Every Ride. The Right Price." width="100%" />
+</p>
+
 > **"Every Ride. The Right Price."**
 
 **Ridezy** is a mobile-first, full-stack ride-booking and price-comparison web application tailored for the Indian urban mobility market. It helps commuters compare valid, all-inclusive fares across **Bikes, Autos, Mini Cabs, Sedans, and SUVs**, uncover mandatory fees upfront, and book the lowest-priced eligible ride.
+
+---
+
+## 📸 Application Showcase
+
+### 1. Home Screen & Interactive Route Map (`Desktop 1440×900`)
+Enter pickup and destination addresses with autocomplete, swap locations in one click, choose **Quick Destinations** (`Home`, `Office`, `Railway Station`, `Airport`), or adjust your pickup gate directly on the interactive route canvas.
+
+![Ridezy Home Screen & Interactive Route Map](docs/screenshots/home-desktop.png)
+
+---
+
+### 2. Core Feature: Lowest Fare Finder & Ride Category Comparison
+Compare valid, unexpired offers across participating providers with a prominent **`LOWEST FARE`** badge, verified savings banner (`You save ₹X compared with the highest-priced comparable offer`), category filters (`Bike`, `Auto`, `Cab`), maximum budget selector, and expandable mandatory fee breakdowns (`Base + Distance`, `Platform Fee`, `5% GST`, and `Airport/Toll Fee`).
+
+![Lowest Fare Finder & Ride Category Cards](docs/screenshots/lowest-fare-finder.png)
+
+---
+
+### 3. Live Booking Status Progression & Safety Toolkit
+Track your ride across 5 interactive stages (`Searching for driver` → `Driver assigned` → `Driver arriving` → `Trip started` → `Trip completed`), view your Start Ride OTP PIN, inspect clearly labeled simulated driver/vehicle details, and access the **Safety & Trip Assistance Toolkit** (`Share Trip`, `Emergency Info`, `Support`, `Report Issue`, and `Cancel Ride`).
+
+![Active Trip Status & Safety Toolkit](docs/screenshots/active-trip-safety.png)
+
+---
+
+### 4. My Savings Dashboard & Verified Audit Ledger
+Track your completed rides, total amount spent, verified savings from selecting cheaper comparable offers, average fare per ride, a 6-month savings bar chart, and a per-ride audit trail.
+
+![My Savings Dashboard](docs/screenshots/my-savings-dashboard.png)
+
+---
+
+### 5. Mobile-First Responsive Layout (`390×844`)
+Designed with ergonomic thumb-zone controls and a fixed bottom navigation bar (`Home`, `My Rides`, `My Savings`, `Profile`) for Android and iPhone screens.
+
+<p align="center">
+  <img src="docs/screenshots/mobile-home.png" alt="Ridezy Mobile Responsive View" width="360" />
+</p>
 
 ---
 
@@ -59,6 +102,8 @@
 ├── server.ts                         # Express + Vite full-stack server (/api/quotes, /api/bookings, /api/providers)
 ├── index.html                        # Entry HTML with custom Ridezy SVG favicon & font imports
 ├── .env.example                      # Environment variable template for production integrations
+├── docs/
+│   └── screenshots/                  # Application screenshots & SVG brand banner for README showcase
 └── src/
     ├── App.tsx                       # Main application shell, navigation, and Home screen
     ├── index.css                     # Tailwind CSS v4 configuration & typography rules
